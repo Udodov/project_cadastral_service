@@ -8,10 +8,10 @@
 .vscode/
 
 # Исключаем файлы и директории Docker
-**/Dockerfile
-**/docker-compose.yml
-**/docker-compose.override.yml
-.dockerignore
+# **/Dockerfile
+# **/docker-compose.yml
+# **/docker-compose.override.yml
+# .dockerignore
 
 # Исключаем временные файлы, создаваемые Python
 __pycache__/
