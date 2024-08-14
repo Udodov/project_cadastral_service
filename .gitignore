@@ -1,0 +1,52 @@
+# Исключаем виртуальное окружение
+/cadastral_service_venv/
+
+# Исключаем конфигурации PyCharm
+.idea/
+
+# Исключаем конфигурации VS Code
+.vscode/
+
+# Исключаем файлы и директории Docker
+**/Dockerfile
+**/docker-compose.yml
+**/docker-compose.override.yml
+.dockerignore
+
+# Исключаем временные файлы, создаваемые Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Исключаем логи и временные файлы
+*.log
+*.tmp
+
+# Исключаем файлы и директории, создаваемые операционной системой
+.DS_Store
+Thumbs.db
+
+# Исключаем файлы и директории, создаваемые тестовыми инструментами
+.coverage
+*.cover
+*.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Исключаем файлы и директории, создаваемые редакторами и инструментами сборки
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+
+# Исключаем зависимости и пакеты (например, при использовании pipenv)
+Pipfile.lock
+
+# Исключаем файлы и директории для Jupyter Notebook (если используются)
+.ipynb_checkpoints/
