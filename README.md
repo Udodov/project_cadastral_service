@@ -7,46 +7,46 @@
 
 ## Структура проекта
 
-project_cadastral_service/
-│
-├── app/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── admin.py
-│   ├── models.py
-│   ├── schemas.py
-│   ├── database.py
-│   ├── crud.py
-│   ├── auth.py
-│   └── routers/
-│       ├── __init__.py
-│       ├── users.py
-│       └── items.py
-│
-├── tests/
-│   ├── __init__.py
-│   ├── conftest.py
-│   ├── test_main.py
-│   ├── test_users.py
-│   ├── test_models.py
-│   └── test_items.py
-│
-├── alembic/
-│   ├── versions/
-│   └── env.py
-│
-├── external_service/
-│   ├── __init__.py
-│   └── main.py
-│
-├── Dockerfile
-├── Dockerfile.external_service
-├── docker-compose.yml
-├── requirements.txt
-├── alembic.ini
-├── .dockerignore
-├── .gitignore
-└── README.md
+project_cadastral_service/<br>
+│<br>
+├── app/<br>
+│   ├── __init__.py<br>
+│   ├── main.py<br>
+│   ├── admin.py<br>
+│   ├── models.py<br>
+│   ├── schemas.py<br>
+│   ├── database.py<br>
+│   ├── crud.py<br>
+│   ├── auth.py<br>
+│   └── routers/<br>
+│       ├── __init__.py<br>
+│       ├── users.py<br>
+│       └── items.py<br>
+│<br>
+├── tests/<br>
+│   ├── __init__.py<br>
+│   ├── conftest.py<br>
+│   ├── test_main.py<br>
+│   ├── test_users.py<br>
+│   ├── test_models.py<br>
+│   └── test_items.py<br>
+│<br>
+├── alembic/<br>
+│   ├── versions/<br>
+│   └── env.py<br>
+│<br>
+├── external_service/<br>
+│   ├── __init__.py<br>
+│   └── main.py<br>
+│<br>
+├── Dockerfile<br>
+├── Dockerfile.external_service<br>
+├── docker-compose.yml<br>
+├── requirements.txt<br>
+├── alembic.ini<br>
+├── .dockerignore<br>
+├── .gitignore<br>
+└── README.md<br>
 
 ## Установка и запуск
 
